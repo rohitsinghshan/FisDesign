@@ -1,0 +1,32 @@
+//
+// Base styles
+//
+
+.btn {
+    display: inline-block;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 0.125rem solid transparent;
+    padding: 0.5rem 3.75rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  .btn-primary{
+    background-color: rgba(var(--primary-color), 1);
+    color: rgba(var(--secondary-color), 1);
+    &:hover {
+        box-shadow: 0 8px 9px -4px rgb(var(--primary-color), 0.2), 0 4px 18px 0 rgb(var(--primary-color), 0.1);
+      }
+  }
+  
+  
